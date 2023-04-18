@@ -9,7 +9,7 @@ namespace SampleClassLibrary
         [Test]
         public void Run()
         {
-            Assert.Equals(1, 1);
+            Assert.Equals(1, 0);
         }
     }
 }
