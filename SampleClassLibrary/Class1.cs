@@ -1,11 +1,15 @@
-﻿namespace SampleClassLibrary
+﻿using NUnit;
+using NUnit.Framework;
+
+namespace SampleClassLibrary
 {
     public class Class1
     {
         // test
+        [Test]
         public void Run()
         {
-            wasrgtwesrtwertert;
+            Assert.Equals(1, 1);
         }
     }
 }
